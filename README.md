@@ -1,4 +1,4 @@
-# sql_samples
+# SQL Samples
 
 The scripts provided here are samples for the purpose of demonstrating various SQL operations that can be run in Google Clouds BigQuery.
 
