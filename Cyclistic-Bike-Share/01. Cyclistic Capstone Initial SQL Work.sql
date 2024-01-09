@@ -1,8 +1,8 @@
-For the Google Data Analytics Professional Certificate’s capstone project I downloaded the last 12 months (October 2021 through September 2022) of trip data for the fictional bicycle renting company Cyclistic. The Cyclistic trip data was sourced from Motivate International Inc. under this license.
+--For the Google Data Analytics Professional Certificate’s capstone project I downloaded the last 12 months (October 2021 through September 2022) of trip data for the fictional bicycle renting company Cyclistic. The Cyclistic trip data was sourced from Motivate International Inc. under this license.
 
-The data was already anonymized but in order to ensure data integrity, clean and remove dirty data I manipulated the data using SQL in Googles BigQuery. I uploaded the 12 csv files I download and uploaded them to Google Drive. I created 12 tables in BigQuery and linked each of the 12 csv files.
+--The data was already anonymized but in order to ensure data integrity, clean and remove dirty data I manipulated the data using SQL in Googles BigQuery. I uploaded the 12 csv files I download and uploaded them to Google Drive. I created 12 tables in BigQuery and linked each of the 12 csv files.
 
-Analyzing the structure of the data tables I identified that the column names and data types were all the same. So, in order to be efficient with my time I decided to join all 12 tables into a new table using the following SQL script:
+--Analyzing the structure of the data tables I identified that the column names and data types were all the same. So, in order to be efficient with my time I decided to join all 12 tables into a new table using the following SQL script:
 
 
 
