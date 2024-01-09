@@ -188,9 +188,9 @@ SELECT ride_id,
 FROM   `my-project-cyclistic-365417.cyclystic_trip_data.202209`
 
 
-After running the above script in BigQuery and joining all 12 tables I saved the results as a new data table. Since the data types of the columns were all the same across the 12 tables I didn’t need to cast any of the data to keep data types consistent. If I would have needed to cast a column in one of the tables to keep the data types consistent, I would have used, as an example, the following SQL script for a particular column in a particular table:
+--After running the above script in BigQuery and joining all 12 tables I saved the results as a new data table. Since the data types of the columns were all the same across the 12 tables I didn’t need to cast any of the data to keep data types consistent. If I would have needed to cast a column in one of the tables to keep the data types consistent, I would have used, as an example, the following SQL script for a particular column in a particular table:
 
 CAST(start_station_id AS [New Data Type]) AS start_station_id,
 
-The result of the SQL script to join 12 months of trip data showed a row count total of 5,828,235 and the new table I saved also had the same number of rows.
+--The result of the SQL script to join 12 months of trip data showed a row count total of 5,828,235 and the new table I saved also had the same number of rows.
 
